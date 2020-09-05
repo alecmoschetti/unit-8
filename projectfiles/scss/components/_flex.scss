@@ -1,0 +1,23 @@
+// FLEX PARTIAL 
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.avatar,
+.text-container {
+    align-self: center;
+}
+
+.avatar{
+    flex-shrink: 0;
+    min-width: 0;
+}
+
+.text-container {
+    min-width: 0;
+    min-height: 0;
+}

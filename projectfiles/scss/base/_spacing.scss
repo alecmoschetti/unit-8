@@ -1,0 +1,65 @@
+// SPACING GENERAL STYLES PARTIAL
+
+body {
+    position: relative;
+    
+}
+
+header {
+    width: 66vw;
+    margin: 3em auto 1em auto;
+}
+
+.grid {
+    width: 70vw;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.card {
+    width: 90%;
+    border-radius: 5px;
+    padding: 2em 1em 2em 1em;
+    border: 1px solid #A9A59C;
+    transition: border .1s ease-out 0;
+    -webkit-box-shadow: 0px 0px 0px .3px rgba(0, 0, 0, 0.3);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    1px 0px 0px .3px rgba(0, 0, 0, 0.3);  /* Firefox 3.5 - 3.6 */
+    box-shadow:         1px 0px 0px .3px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    border: 3.5px solid #65B9C3;
+    box-shadow: 0 0 0 0;
+  }
+
+  .text-container {
+    margin-left: 1em;
+}
+
+
+
+//modal window overlay -- learned from treehouse
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.modal {
+    width: 40vw;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.hidden {
+    display: none;
+}
+

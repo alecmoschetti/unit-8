@@ -1,0 +1,31 @@
+// TYPOGRAPHY PAGE 
+
+@import 'https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;1,600&display=swap';
+
+body {
+    font-family: "Barlow", "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+}
+
+.text-container {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2vw;
+    letter-spacing: .05em;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+h2 > p {
+    font-style: italic;
+}
+
+p {
+    font-size: .7vw;
+}

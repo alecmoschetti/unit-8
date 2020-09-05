@@ -1,0 +1,16 @@
+// GRID PARTIAL 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1em;
+}
+
+section {
+    justify-self: center;
+}
+
+header {
+    display: grid;
+}
