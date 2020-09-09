@@ -49,14 +49,35 @@ header {
 }
 
 .modal {
-    width: 40vw;
+    width: 20vw;
     margin: 15% auto auto;
     position: relative;
-    text-align: center;
+    // text-align: center;
     background: #fff;
     border: 1px solid #778;
     border-radius: 5px;
     padding: 1em;
+}
+
+.modal-content {
+    width: 95%;
+    margin: .5em auto;
+    padding: 1em;
+    max-height: 100%;
+}
+
+.modal-text-container {
+    text-align: center;
+}
+
+.modal-text-container p {
+    margin: 3% auto;
+}
+
+hr {
+    border: none;
+    margin: 5% auto;
+    height: 1px;
 }
 
 .hidden {
